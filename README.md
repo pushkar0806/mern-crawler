@@ -25,4 +25,8 @@ With concurrently installed, we will be executing the below command which will s
 ```bash
 npm run dev
 ```
-
+---
+Great, now the UI is running on:
+```bash
+http://localhost:8080/
+```
