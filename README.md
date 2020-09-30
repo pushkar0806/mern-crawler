@@ -2,7 +2,7 @@
 Crawls for the Top rated movies list and the implemented search functionality enables us to search for the movies as per various filters.
 
 ## Installation
-Use the package manager [npm] (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install the application.
+Use the package manager [npm].
 
 ```bash
 git clone https://github.com/pushkar0806/mern-crawler.git
