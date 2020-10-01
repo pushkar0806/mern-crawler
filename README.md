@@ -33,6 +33,6 @@ http://localhost:8080/
 
 ---
 ## Technical Scopes
-* The client internally would be pointing to the node server running on post 0801.
+* The client internally would be pointing to the node server running on post 8081.
 * With the click on **Crawl IMDB**, the movies list would be crawled down and served locally into a JSON file.
 * The full list appears onto the UI with a search bar which will narrow down the list as per the applied inputs.
