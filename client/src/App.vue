@@ -5,7 +5,7 @@
       <h1 v-bind:style="{'font-weight': 'bolder', 'color': 'lightsalmon'}" >Top Rated Movies</h1>
     </div>
     <template v-if="!isMovieListPresent">
-      <div class="crawl-btn" @click="crawl"><button>Crawl IMDB</button></div>
+      <div class="crawl-btn" @click="crawl"><button type="button" class="btn btn-primary ">Crawl IMDB</button></div>
     </template>
     <template v-else>
       <Home :movies="moviesArray" />
@@ -66,5 +66,10 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.crawl-btn {
+  display: flex;
+  justify-content: center;
 }
 </style>
